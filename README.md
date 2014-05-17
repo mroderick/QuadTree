@@ -11,7 +11,7 @@ var qt = new PointQuadTree();
 qt.set({x: 10, y: 5}, 'blue');
 
 // get a value from 10, 5
-qt.get({x: 10, y: 5});
+qt.get({x: 10, y: 5}); // 'blue'
 
 // remove a value
 qt.get({x: 10, y: 5});
