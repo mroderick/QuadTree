@@ -1,0 +1,23 @@
+{
+  "name": "quadlife",
+  "version": "0.0.0",
+  "description": "A JavaScript implementation of a Point Quad Tree",
+  "main": "src/index.html",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "buster": "~0.6.12",
+    "buster-amd": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": "",
+  "author": "Morgan Roderick",
+  "license": "MIT",
+  "gitHead": "c28bc8421e395166b585d437fec7d47a199866fc",
+  "readmeFilename": "README.md"
+}
