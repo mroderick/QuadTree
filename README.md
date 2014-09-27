@@ -14,5 +14,5 @@ qt.set({x: 10, y: 5}, 'blue');
 qt.get({x: 10, y: 5}); // 'blue'
 
 // remove a value
-qt.get({x: 10, y: 5});
+qt.remove({x: 10, y: 5});
 ```
