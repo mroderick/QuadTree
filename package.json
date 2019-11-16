@@ -1,19 +1,27 @@
 {
-  "name": "quadlife",
-  "version": "0.0.0",
+  "name": "quadtree",
+  "version": "1.0.0",
   "description": "A JavaScript implementation of a Point Quad Tree",
-  "main": "src/index.html",
+  "main": "lib/PointQuadTree.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "prettier": "^1.19.1"
+  },
   "devDependencies": {
-    "buster": "~0.6.12",
-    "buster-amd": "~0.2.0",
-    "grunt": "~0.4.1"
+    "@sinonjs/referee": "^3.2.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-mocha": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.1",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1"
   },
   "scripts": {
-    "test": "grunt test"
+    "lint": "eslint .",
+    "test": "mocha ./lib/*.test.js",
+    "test-coverage": "nyc --all --reporter text --reporter html --reporter lcovonly npm run test"
   },
   "repository": "",
   "author": "Morgan Roderick",
