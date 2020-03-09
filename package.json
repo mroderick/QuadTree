@@ -10,7 +10,7 @@
     "prettier": "^1.19.1"
   },
   "devDependencies": {
-    "@sinonjs/referee": "^3.2.0",
+    "@sinonjs/referee": "^5.0.1",
     "eslint": "^6.6.0",
     "eslint-config-prettier": "^6.5.0",
     "eslint-plugin-mocha": "^6.2.1",
